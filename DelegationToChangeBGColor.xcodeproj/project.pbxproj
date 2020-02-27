@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CE9F0FED2406677E0049847A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F0FEC2406677E0049847A /* AppDelegate.swift */; };
 		CE9F0FEF2406677E0049847A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F0FEE2406677E0049847A /* SceneDelegate.swift */; };
-		CE9F0FF12406677E0049847A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F0FF02406677E0049847A /* ViewController.swift */; };
+		CE9F0FF12406677E0049847A /* ClassAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F0FF02406677E0049847A /* ClassAVC.swift */; };
 		CE9F0FF42406677E0049847A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0FF22406677E0049847A /* Main.storyboard */; };
 		CE9F0FF6240667830049847A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0FF5240667830049847A /* Assets.xcassets */; };
 		CE9F0FF9240667830049847A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0FF7240667830049847A /* LaunchScreen.storyboard */; };
+		CE9F1001240669CB0049847A /* ClassBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F1000240669CB0049847A /* ClassBVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE9F0FE92406677E0049847A /* DelegationToChangeBGColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegationToChangeBGColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9F0FEC2406677E0049847A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9F0FEE2406677E0049847A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE9F0FF02406677E0049847A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9F0FF02406677E0049847A /* ClassAVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassAVC.swift; sourceTree = "<group>"; };
 		CE9F0FF32406677E0049847A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE9F0FF5240667830049847A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9F0FF8240667830049847A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9F0FFA240667830049847A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9F1000240669CB0049847A /* ClassBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassBVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CE9F0FEC2406677E0049847A /* AppDelegate.swift */,
 				CE9F0FEE2406677E0049847A /* SceneDelegate.swift */,
-				CE9F0FF02406677E0049847A /* ViewController.swift */,
+				CE9F0FF02406677E0049847A /* ClassAVC.swift */,
+				CE9F1000240669CB0049847A /* ClassBVC.swift */,
 				CE9F0FF22406677E0049847A /* Main.storyboard */,
 				CE9F0FF5240667830049847A /* Assets.xcassets */,
 				CE9F0FF7240667830049847A /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9F0FF12406677E0049847A /* ViewController.swift in Sources */,
+				CE9F0FF12406677E0049847A /* ClassAVC.swift in Sources */,
 				CE9F0FED2406677E0049847A /* AppDelegate.swift in Sources */,
+				CE9F1001240669CB0049847A /* ClassBVC.swift in Sources */,
 				CE9F0FEF2406677E0049847A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
