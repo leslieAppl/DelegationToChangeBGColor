@@ -28,17 +28,21 @@ class ClassBVC: UIViewController {
     
     @IBAction func APressed(_ sender: Any) {
         
+        //Change ClassBVC.view.backgroundColor
         view.backgroundColor = #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)
         
         //MARK: step 3 Add the delegate method call here
+        //Change ClassAVC.view.backgroundColor
         delegate?.changeBGColor(view.backgroundColor)
     }
     
     @IBAction func BPressed(_ sender: Any) {
         
+        //Change ClassBVC.view.backgroundColor
         view.backgroundColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
         
         //MARK: step 3 Add the delegate method call here
+        //Change ClassAVC.view.backgroundColor
         delegate?.changeBGColor(view.backgroundColor)
 
     }

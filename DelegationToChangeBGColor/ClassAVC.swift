@@ -9,7 +9,7 @@
 import UIKit
 
 //MARK: step 4 adopt the protocol here
-class ClassAVC: UIViewController, ClassBVCDelegate {
+class ClassAVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +21,17 @@ class ClassAVC: UIViewController, ClassBVCDelegate {
         
         //MARK: step 5 create a reference of Class B and bind them through the prepareforsegue method
         let classBVC = segue.destination as! ClassBVC
-        classBVC.delegate = self
+        classBVC.delegate = self    //Cause 'self' adopted the protocol, so can replace delegate's value.
         
     }
 
+
+}
+
+extension ClassAVC: ClassBVCDelegate {
     //MARK: step 6 finally use the method of the contract here
     func changeBGColor(_ color: UIColor?) {
         
         view.backgroundColor = color
     }
-
 }
-
